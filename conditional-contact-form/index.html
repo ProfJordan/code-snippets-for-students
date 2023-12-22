@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - conditional contact</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<h1>Contact Us</h1>
+    <form id="contact-form">
+        <label for="contact-type">Select Contact Type:</label>
+        <select id="contact-type" name="contact-type">
+            <option value="address">Mailing Address</option>
+            <option value="email">Email Address</option>
+        </select>
+        <div id="address-field" class="hidden">
+            <label for="address">Mailing Address:</label>
+            <textarea id="address" name="address"></textarea>
+        </div>
+        <div id="email-field" class="hidden">
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email">
+        </div>
+        <button type="submit">Submit</button>
+    </form>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
