@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta author="Jordan Halliday">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spritesheet Animation</title>
+  <style>
+    @keyframes spriteAnimation {
+      0% { background-position: 0 0; }
+      16.666% { background-position: -200px 0; }
+      33.333% { background-position: -400px 0; }
+      50% { background-position: -600px 0; }
+      66.666% { background-position: -800px 0; }
+      83.333% { background-position: -1000px 0; }
+      100% { background-position: 0 0; }
+    }
+
+    .spritesheet {
+      width: 200px;
+      height: 500px;
+      background-image: url('plant-sprite-sheet/sunflower-sprite-sheet.png');
+      animation: spriteAnimation 3s steps(6) infinite; /* Adjust the time and steps as needed */
+    }
+  </style>
+</head>
+<body>
+
+  <div class="spritesheet"></div>
+
+</body>
+</html>
