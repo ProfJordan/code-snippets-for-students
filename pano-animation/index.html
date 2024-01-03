@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta author="Jordan Halliday">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panoramic Image Animation</title>
+    <style>
+      @keyframes scrollAnimation {
+        0% { transform: translateX(0); }
+        50% { transform: translateX(-600px); } /* Adjust the distance based on the width of your container */
+        100% { transform: translateX(0); }
+      }
+  
+      .panoramic-container {
+        width: 600px;
+        height: 418px;
+        overflow: hidden;
+      }
+  
+      .panoramic-image {
+        width: 2400px; /* Adjust based on the width of your panoramic image (4 times the container width) */
+        height: 418px;
+        background-image: url('./panoramic-landscape-of-the-canadian-rocky-mountain.png');
+        animation: scrollAnimation 10s linear infinite; /* Adjust the animation duration as needed */
+      }
+    </style>
+  </head>
+  <body>
+  
+    <div class="panoramic-container">
+      <div class="panoramic-image"></div>
+    </div>
+  
+  </body>
+  </html>
