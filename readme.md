@@ -1,0 +1,2 @@
+# code-snippets-for-students
+A collection of misc code snippets put together to help teach students a concept. The collection is unorganized and used mainly as a teaching tool. But feel free to use them and contribute should you have an idea.
