@@ -13,6 +13,10 @@ Bubble Sort is a simple sorting algorithm that repeatedly steps through the list
 
 Bucket Sort, or Bin Sort, operates by partitioning an array into a number of buckets. Each bucket is then sorted individually, either using a different sorting algorithm, or by recursively applying the bucket sort algorithm. It is mainly useful when the input is uniformly distributed over a range.
 
+### [Comb Sort](./comb-sort/)
+
+Comb Sort is a relatively simple sorting algorithm originally designed to improve upon bubble sort by eliminating turtles, or small values near the end of the list, since in a bubble sort these slow the sorting down tremendously. Rabbits, large values around the beginning of the list, do not pose a problem in bubble sort. In comb sort, the gap between elements is reduced by a factor (the shrink factor) on each pass until the gap is 1.
+
 ### [Counting Sort](./counting-sort/)
 
 Counting Sort is an integer sorting algorithm that operates by counting the number of objects that have each distinct key value. It's efficient if the range of input data is not significantly greater than the number of objects to be sorted.
@@ -63,10 +67,6 @@ Cocktail Shaker Sort, also known as Bidirectional Bubble Sort, Cocktail Sort, Sh
 #### Gnome Sort
 
 Gnome Sort, also called Stupid sort, is simple to understand and can be seen as a variant of insertion sort in which moving an element to its proper place is accomplished by a series of swaps, as in bubble sort.
-
-#### Comb Sort
-
-Comb Sort is a relatively simple sorting algorithm originally designed to improve upon bubble sort by eliminating turtles, or small values near the end of the list, since in a bubble sort these slow the sorting down tremendously. Rabbits, large values around the beginning of the list, do not pose a problem in bubble sort. In comb sort, the gap between elements is reduced by a factor (the shrink factor) on each pass until the gap is 1.
 
 ----
 
