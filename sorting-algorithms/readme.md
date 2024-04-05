@@ -25,6 +25,10 @@ Comb Sort is a relatively simple sorting algorithm originally designed to improv
 
 Counting Sort is an integer sorting algorithm that operates by counting the number of objects that have each distinct key value. It's efficient if the range of input data is not significantly greater than the number of objects to be sorted.
 
+### [Gnome Sort](./gnome-sort/)
+
+Gnome Sort, also called Stupid sort, is simple to understand and can be seen as a variant of insertion sort in which moving an element to its proper place is accomplished by a series of swaps, as in bubble sort.
+
 ### [Heap sort](./heap-sort/)
 
 Heap Sort is a popular and efficient sorting algorithm in computer science. The entire sorting algorithm is based on the binary heap data structure. It works by visualizing the elements of the array as a special kind of complete binary tree called a heap.
@@ -63,10 +67,6 @@ Radix Sort is a non-comparative integer sorting algorithm that sorts data with i
 #### TimSort
 
 TimSort is a hybrid stable sorting algorithm, derived from merge sort and insertion sort, designed to perform well on many kinds of real-world data. It was implemented in 2002 by Tim Peters for the Python programming language. The algorithm finds subsequences of the data that are already ordered (run) and uses them to sort the remainder more efficiently.
-
-#### Gnome Sort
-
-Gnome Sort, also called Stupid sort, is simple to understand and can be seen as a variant of insertion sort in which moving an element to its proper place is accomplished by a series of swaps, as in bubble sort.
 
 ----
 

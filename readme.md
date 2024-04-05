@@ -19,6 +19,7 @@ A collection of misc code snippets put together to help teach students a concept
   - ##### [Cocktail Shaker Sort](./sorting-algorithms/cocktail-shaker-sort/)
   - ##### [Comb Sort](./sorting-algorithms/comb-sort/) 
   - ##### [Counting Sort](./sorting-algorithms/counting-sort/)
+  - ##### [Gnome Sort](./sorting-algorithms/gnome-sort/)
   - ##### [Heap Sort](./sorting-algorithms/heap-sort/)
   - ##### [Insertion Sort](./sorting-algorithms/insertion-sort/)
   - ##### [Merge Sort](./sorting-algorithms/merge-sort/)
