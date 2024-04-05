@@ -7,6 +7,10 @@ Examples of sorting Algorithms in JS.
 
 Bubble Sort is a simple sorting algorithm that repeatedly steps through the list, compares adjacent elements, and swaps them if they are in the wrong order. The pass through the list is repeated until the list is sorted. Despite its simplicity, Bubble Sort is not very efficient for large datasets compared to more advanced sorting algorithms like Quick Sort or Merge Sort.
 
+### [Counting Sort](./counting-sort/)
+
+Counting Sort is an integer sorting algorithm that operates by counting the number of objects that have each distinct key value. It's efficient if the range of input data is not significantly greater than the number of objects to be sorted.
+
 ### [Heap sort](./heap-sort/)
 
 Heap Sort is a popular and efficient sorting algorithm in computer science. The entire sorting algorithm is based on the binary heap data structure. It works by visualizing the elements of the array as a special kind of complete binary tree called a heap.
@@ -36,10 +40,6 @@ Shell Sort is an in-place comparison sort. It is mainly a variation of insertion
 ### Additional Algorithms to Add:
 
 There are many sorting algorithms beyond the examples here. Each has its own set of advantages, disadvantages, and use-cases where it is most suitable. Here's a brief overview of some additional sorting algorithms:
-
-#### Counting Sort
-
-Counting Sort is an integer sorting algorithm that operates by counting the number of objects that have each distinct key value. It's efficient if the range of input data is not significantly greater than the number of objects to be sorted. It's not a comparison-based sort and has a linear time complexity \(O(n+k)\), where \(n\) is the number of elements and \(k\) is the range of input.
 
 #### Radix Sort
 
