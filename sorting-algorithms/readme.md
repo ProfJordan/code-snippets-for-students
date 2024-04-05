@@ -13,6 +13,10 @@ Bubble Sort is a simple sorting algorithm that repeatedly steps through the list
 
 Bucket Sort, or Bin Sort, operates by partitioning an array into a number of buckets. Each bucket is then sorted individually, either using a different sorting algorithm, or by recursively applying the bucket sort algorithm. It is mainly useful when the input is uniformly distributed over a range.
 
+### [Cocktail Shaker Sort](./cocktail-shaker-sort/)
+
+Cocktail Shaker Sort, also known as Bidirectional Bubble Sort, Cocktail Sort, Shaker Sort (which can also refer to a variant of Selection Sort), Ripple Sort, Shuttle Sort, or Happy Hour Sort, is an extension of Bubble Sort. The algorithm extends bubble sort by operating in two directions.
+
 ### [Comb Sort](./comb-sort/)
 
 Comb Sort is a relatively simple sorting algorithm originally designed to improve upon bubble sort by eliminating turtles, or small values near the end of the list, since in a bubble sort these slow the sorting down tremendously. Rabbits, large values around the beginning of the list, do not pose a problem in bubble sort. In comb sort, the gap between elements is reduced by a factor (the shrink factor) on each pass until the gap is 1.
@@ -59,10 +63,6 @@ Radix Sort is a non-comparative integer sorting algorithm that sorts data with i
 #### TimSort
 
 TimSort is a hybrid stable sorting algorithm, derived from merge sort and insertion sort, designed to perform well on many kinds of real-world data. It was implemented in 2002 by Tim Peters for the Python programming language. The algorithm finds subsequences of the data that are already ordered (run) and uses them to sort the remainder more efficiently.
-
-#### Cocktail Shaker Sort
-
-Cocktail Shaker Sort, also known as Bidirectional Bubble Sort, Cocktail Sort, Shaker Sort (which can also refer to a variant of Selection Sort), Ripple Sort, Shuttle Sort, or Happy Hour Sort, is an extension of Bubble Sort. The algorithm extends bubble sort by operating in two directions.
 
 #### Gnome Sort
 

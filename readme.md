@@ -16,6 +16,7 @@ A collection of misc code snippets put together to help teach students a concept
 - #### [Sorting Algorithms](./sorting-algorithms/)
   - ##### [Bubble Sort](./sorting-algorithms/bubble-sort/)
   - ##### [Bucket Sort](./sorting-algorithms/bucket-sort/)
+  - ##### [Cocktail Shaker Sort](./sorting-algorithms/cocktail-shaker-sort/)
   - ##### [Comb Sort](./sorting-algorithms/comb-sort/) 
   - ##### [Counting Sort](./sorting-algorithms/counting-sort/)
   - ##### [Heap Sort](./sorting-algorithms/heap-sort/)
@@ -34,6 +35,7 @@ A collection of misc code snippets put together to help teach students a concept
 2. Ensure all snippets are functioning correctly still
 3. Categorize / Organize the snippets better
 4. Add Readme's to all snippets explaining function/purpose
+5. Add best-case, average and worst-case time complexity to sorting algorithms
 
 ## Contribute
 Have a good snippet you'd like to add. Send a PR.
