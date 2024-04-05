@@ -31,6 +31,7 @@ A collection of misc code snippets put together to help teach students a concept
 1. Add more snippets
 2. Ensure all snippets are functioning correctly still
 3. Categorize / Organize the snippets better
+4. Add Readme's to all snippets explaining function/purpose
 
 ## Contribute
 Have a good snippet you'd like to add. Send a PR.
