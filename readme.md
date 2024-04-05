@@ -24,6 +24,7 @@ A collection of misc code snippets put together to help teach students a concept
   - ##### [Insertion Sort](./sorting-algorithms/insertion-sort/)
   - ##### [Merge Sort](./sorting-algorithms/merge-sort/)
   - ##### [Quick Sort](./sorting-algorithms/quick-sort/)
+  - ##### [Radix Sort](./sorting-algorithms/radix-sort/)
   - ##### [Selection Sort](./sorting-algorithms/selection-sort/)
   - ##### [Shell Sort](./sorting-algorithms/shell-sort/)
 - #### [Sprite Sheet](./sprite-sheet/)

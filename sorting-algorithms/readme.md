@@ -45,6 +45,10 @@ Merge Sort is another highly efficient sorting algorithm based on the divide-and
 
 Quick Sort is a highly efficient sorting algorithm and is based on the divide-and-conquer approach. It picks an element as a pivot and partitions the given array around the picked pivot.
 
+### [Radix Sort](./radix-sort/)
+
+Radix Sort is a non-comparative integer sorting algorithm that sorts data with integer keys by grouping keys by the individual digits which share the same significant position and value. It works on the principle of Counting Sort and sorts the data digit by digit starting from least significant digit to most significant digit.
+
 ### [Selection Sort](./selection-sort/)
 
 Selection sort is a simple sorting algorithm that emphasizes the process of remembering the lowest and highest values in each iteration.
@@ -59,10 +63,6 @@ Shell Sort is an in-place comparison sort. It is mainly a variation of insertion
 ### Additional Algorithms to Add:
 
 There are many sorting algorithms beyond the examples here. Each has its own set of advantages, disadvantages, and use-cases where it is most suitable. Here's a brief overview of some additional sorting algorithms:
-
-#### Radix Sort
-
-Radix Sort is a non-comparative integer sorting algorithm that sorts data with integer keys by grouping keys by the individual digits which share the same significant position and value. It works on the principle of Counting Sort and sorts the data digit by digit starting from least significant digit to most significant digit.
 
 #### TimSort
 
