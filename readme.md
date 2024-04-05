@@ -6,9 +6,10 @@ A collection of misc code snippets put together to help teach students a concept
 
 ### HTML / CSS / JS
 
-- #### [Conditional Contact Form](./conditional-contact-form/)
 - #### [CSS Scale Example](./css-scale-example/)
-- #### [Enhanced Form](./enhanced-form/)
+- #### [Forms](./forms/)
+  - #### [Conditional Contact Form](./forms/conditional-contact-form/)
+  - #### [Enhanced Form](./forms/enhanced-form/)
 - #### [Hide Show Section on Nav Link Click](./hide-show-section-on-nav-link-click/)
 - #### [Pano Animation](./pano-animation/)
 - #### [Responsive Flexbox Expanding Panels](./responsive-flexbox-expanding-panels/)
