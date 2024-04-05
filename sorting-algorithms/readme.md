@@ -57,16 +57,17 @@ Selection sort is a simple sorting algorithm that emphasizes the process of reme
 
 Shell Sort is an in-place comparison sort. It is mainly a variation of insertion sort or bubble sort. The method starts by sorting pairs of elements far apart from each other, then progressively reducing the gap between elements to be compared. By starting with far apart elements, it can move some out-of-place elements into position faster than a simple nearest neighbor exchange. Shell Sort is more efficient than a simple insertion or bubble sort and is particularly effective for medium-sized arrays.
 
+
+### [Tim Sort](./tim-sort/)
+
+Tim Sort is a hybrid stable sorting algorithm, derived from merge sort and insertion sort, designed to perform well on many kinds of real-world data. It was implemented in 2002 by Tim Peters for the Python programming language. The algorithm finds subsequences of the data that are already ordered (run) and uses them to sort the remainder more efficiently.
+
 ----
 ## TODO:
 
-### Additional Algorithms to Add:
+### Add Additional Algorithms:
 
-There are many sorting algorithms beyond the examples here. Each has its own set of advantages, disadvantages, and use-cases where it is most suitable. Here's a brief overview of some additional sorting algorithms:
-
-#### TimSort
-
-TimSort is a hybrid stable sorting algorithm, derived from merge sort and insertion sort, designed to perform well on many kinds of real-world data. It was implemented in 2002 by Tim Peters for the Python programming language. The algorithm finds subsequences of the data that are already ordered (run) and uses them to sort the remainder more efficiently.
+There are many sorting algorithms beyond the examples here. Each has its own set of advantages, disadvantages, and use-cases where it is most suitable.
 
 ----
 

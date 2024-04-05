@@ -27,6 +27,7 @@ A collection of misc code snippets put together to help teach students a concept
   - ##### [Radix Sort](./sorting-algorithms/radix-sort/)
   - ##### [Selection Sort](./sorting-algorithms/selection-sort/)
   - ##### [Shell Sort](./sorting-algorithms/shell-sort/)
+  - ##### [Tim Sort](./sorting-algorithms/tim-sort/)
 - #### [Sprite Sheet](./sprite-sheet/)
 - #### [Temperature API](./temperature-api/)
 - #### [Time Based Greeting](./time-based-greeting/)
