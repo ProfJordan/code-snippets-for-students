@@ -63,6 +63,54 @@ Shell Sort is an in-place comparison sort. It is mainly a variation of insertion
 Tim Sort is a hybrid stable sorting algorithm, derived from merge sort and insertion sort, designed to perform well on many kinds of real-world data. It was implemented in 2002 by Tim Peters for the Python programming language. The algorithm finds subsequences of the data that are already ordered (run) and uses them to sort the remainder more efficiently.
 
 ----
+
+## Explaination & Run Times:
+
+1. Bubble Sort
+Explanation: This is a simple sorting algorithm that repeatedly steps through the list, compares adjacent elements, and swaps them if they are in the wrong order. This process repeats until the list is sorted.
+Run Times: The best-case scenario (O(n)) occurs when the list is already sorted, and it only needs one pass to confirm this. The average and worst-case (O(n^2)) scenarios occur when the list is randomly arranged or in reverse order, requiring multiple passes through the list, making comparisons at each step.
+2. Bucket Sort
+Explanation: Bucket sort distributes elements of an array into a number of buckets. Each bucket is then sorted individually, either using a different sorting algorithm or by recursively applying the bucket sort.
+Run Times: The best and average cases (O(n+k)) occur when the elements are distributed evenly among the buckets. The worst-case (O(n^2)) occurs when all elements are placed into a single bucket.
+3. Cocktail Shaker Sort
+Explanation: A variation of bubble sort that sorts in both directions on each pass through the list. This can help to reduce the number of passes needed to fully sort the list.
+Run Times: The best-case scenario is similar to bubble sort where a single pass can sort the list (O(n)). Average and worst cases (O(n^2)) occur when elements are in random order or nearly in reverse order.
+4. Comb Sort
+Explanation: Improves on bubble sort by eliminating turtles, or small values near the end of the list. It uses a gap that is initially large and shrinks until it reaches 1.
+Run Times: Best-case is O(n log n) when there is minimal shrinking of the gap. Average and worst-case performance heavily depends on the gap size and the order of input.
+5. Counting Sort
+Explanation: This is an integer sorting algorithm that operates by counting the number of objects that have each distinct key value, and using arithmetic to determine the positions of each key.
+Run Times: In all cases (O(n+k)), where n is the number of elements and k is the range of the input, the algorithm runs in linear time relative to the input.
+6. Gnome Sort
+Explanation: Similar to insertion sort but easier to implement. The algorithm continually moves an element to its proper place by comparing it with its neighbors.
+Run Times: Best-case is O(n) when the array is already sorted. Average and worst-case are O(n^2) when elements are in reverse order.
+7. Heap Sort
+Explanation: This algorithm divides its input into a sorted and an unsorted region, and it iteratively shrinks the unsorted region by extracting the largest element and moving it to the sorted region.
+Run Times: Consistently O(n log n) because it requires log n operations to add or remove elements from the heap, applied to n elements.
+8. Insertion Sort
+Explanation: Builds the final sorted array one item at a time, with the movement of elements that are greater than the value being inserted.
+Run Times: Best-case is O(n) for a nearly sorted list, while average and worst cases are O(n^2) due to the need for potentially moving each element several places.
+9. Merge Sort
+Explanation: A divide and conquer algorithm that splits the list into halves, sorts each half, and merges them back together.
+Run Times: Consistently O(n log n) because each level of split involves a linear amount of work across all segments, and the depth of the splitting is logarithmic relative to n.
+10. Quick Sort
+Explanation: Another divide and conquer algorithm that selects a 'pivot' element and partitions the elements around this pivot, sorting the partitions independently.
+Run Times: Best and average cases are O(n log n) due to efficient partitioning, but the worst case is O(n^2) when the smallest or largest element is always picked as the pivot.
+11. Radix Sort
+Explanation: Non-comparative integer sorting algorithm that sorts data with integer keys by grouping the keys by individual digits that share the same significant position and value.
+Run Times: O(nk), where n is the number of elements and k is the digit length of the number.
+12. Selection Sort
+Explanation: Inefficiently sorts an array by repeatedly finding the minimum element from the unsorted part and putting it at the beginning.
+Run Times: Always O(n^2) because each element needs a comparison with all other elements.
+13. Shell Sort
+Explanation: An in-place comparison sort which starts by sorting pairs of elements far apart from each other, then progressively reducing the gap between elements to be compared.
+Run Times: Performance depends heavily on the gap sequence, with the best known being O(n(log n)^2).
+14. Tim Sort
+Explanation: A hybrid sorting algorithm, derived from merge sort and insertion sort, designed to perform well on many kinds of real-world data.
+Run Times: The algorithm runs in O(n log n) in average and worst cases, with a best case of O(n) when the data is already sorted.
+In providing feedback on this explanation, ensure each algorithm’s logic is clearly linked to its runtime performance, and try using more examples to illustrate complex concepts, especially for the more complex sorting algorithms like Quick Sort and Tim Sort.
+
+----
 ## TODO:
 
 ### Add Additional Algorithms:
