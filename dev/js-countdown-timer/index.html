@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Javascript Countdown Timer</title>
+    </head>
+    <body>
+        <p id="countdown">10</p>
+        <script>
+            var count = 10;
+            var countdownElement = document.getElementById("countdown");
+            var interval = setInterval(function() {
+                count--;
+                countdownElement.innerText = count;
+                if (count <= 0) {
+                    clearInterval(interval);
+                    countdownElement.innerText = "Time's up!";
+                }
+            }, 1000);
+        </script>
+    </body>
+    </html>
+    
