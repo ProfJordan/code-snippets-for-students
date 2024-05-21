@@ -1,3 +1,3 @@
 # CSS Grid Layout
 
-## `CSS -> Layout -> Grid`
+## `CSS -> Responsive -> Grid`
