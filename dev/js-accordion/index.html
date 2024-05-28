@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>JavaScript Accordion</title>
+    <style>
+        .accordion {
+            cursor: pointer;
+            background-color: #eee;
+            padding: 10px;
+            border: none;
+            text-align: left;
+            outline: none;
+            transition: background-color 0.3s;
+        }
+        .accordion-content {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s;
+            background-color: #f9f9f9;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <button class="accordion">Section 1</button>
+    <div class="accordion-content">
+        <p>Content for section 1.</p>
+    </div>
+    <button class="accordion">Section 2</button>
+    <div class="accordion-content">
+        <p>Content for section 2.</p>
+    </div>
+    <script>
+        const accordions = document.querySelectorAll('.accordion');
+        accordions.forEach(button => {
+            button.addEventListener('click', function() {
+                this.classList.toggle('active');
+                const content = this.nextElementSibling;
+                if (content.style.maxHeight) {
+                    content.style.maxHeight = null;
+                } else {
+                    content.style.maxHeight = content.scrollHeight + "px";
+                }
+            });
+        });
+    </script>
+</body>
+</html>

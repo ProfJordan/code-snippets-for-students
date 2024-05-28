@@ -1,0 +1,3 @@
+# Javascript Accordion
+
+## `JS -> animation`
