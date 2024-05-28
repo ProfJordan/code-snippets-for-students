@@ -1,3 +1,3 @@
 # JavaScript DOM Manipulation
 
-## `JS -> DOM Manipulation`
+## `JS -> DOM`
