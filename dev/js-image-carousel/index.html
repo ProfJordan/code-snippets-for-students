@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>JavaScript Image Carousel</title>
+    <style>
+        .carousel {
+            width: 300px;
+            height: 200px;
+            overflow: hidden;
+            position: relative;
+        }
+        .carousel img {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            transition: opacity 1s;
+        }
+        .carousel img:not(:first-child) {
+            opacity: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="carousel">
+        <img src="image1.jpg" alt="Image 1">
+        <img src="image2.jpg" alt="Image 2">
+        <img src="image3.jpg" alt="Image 3">
+    </div>
+    <script>
+        let currentIndex = 0;
+        const images = document.querySelectorAll('.carousel img');
+
+        function showNextImage() {
+            images[currentIndex].style.opacity = 0;
+            currentIndex = (currentIndex + 1) % images.length;
+            images[currentIndex].style.opacity = 1;
+        }
+
+        setInterval(showNextImage, 3000);
+    </script>
+</body>
+</html>
