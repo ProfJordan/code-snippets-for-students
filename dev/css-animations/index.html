@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>CSS Animations</title>
+        <style>
+            .animate {
+                width: 100px;
+                height: 100px;
+                background-color: red;
+                position: relative;
+                animation: move 2s infinite;
+            }
+            @keyframes move {
+                0% { left: 0; }
+                50% { left: 200px; }
+                100% { left: 0; }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="animate"></div>
+    </body>
+    </html>
