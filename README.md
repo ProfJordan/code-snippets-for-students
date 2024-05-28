@@ -10,6 +10,7 @@ A collection of misc code snippets initially put together to help teach students
   - ##### [Forms](./HTML/forms/)
     - ###### [Conditional Contact Form](./HTML/forms/conditional-contact-form/)
     - ###### [Enhanced Form](./HTML/forms/enhanced-form/)
+    - ###### [Simple Form](./HTML/forms/simple-html-form/)
 
 
 - #### [CSS](./CSS/)
