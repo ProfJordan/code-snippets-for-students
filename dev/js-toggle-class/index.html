@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>JavaScript Toggle Class</title>
+    <style>
+        .highlight {
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <p id="paragraph">Click the button to toggle highlight.</p>
+    <button onclick="toggleHighlight()">Toggle Highlight</button>
+    <script>
+        function toggleHighlight() {
+            document.getElementById("paragraph").classList.toggle("highlight");
+        }
+    </script>
+</body>
+</html>
